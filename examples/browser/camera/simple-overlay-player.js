@@ -1,7 +1,7 @@
 const { components, pipelines, utils } = window.mediaStreamLibrary
 const d3 = window.d3
 
-// force auth
+// force authentication
 const authorize = async (host) => {
   // Force a login by fetching usergroup
   const fetchOptions = {

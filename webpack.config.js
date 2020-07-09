@@ -5,7 +5,7 @@ module.exports = {
   output: {
     library: 'mediaStreamLibrary',
     path: __dirname,
-    filename: 'dist/media-stream-library.min.js',
+    filename: 'examples/media-stream-library.min.js',
   },
   resolve: {
     extensions: ['.ts', '.js'],
